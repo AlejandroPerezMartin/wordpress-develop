@@ -99,8 +99,8 @@ Description: Used to style blocks in the editor.
 	padding: 0;
 }
 
-.edit-post-visual-editor ul:not(.wp-block-gallery),
-.editor-block-list__block ul:not(.wp-block-gallery),
+.edit-post-visual-editor ul:not(.wp-block-gallery):not(.wp-block-post-template),
+.editor-block-list__block ul:not(.wp-block-gallery):not(.wp-block-post-template),
 .block-library-list ul {
 	list-style: square;
 }
